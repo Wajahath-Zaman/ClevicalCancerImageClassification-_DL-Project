@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/raw/*
+data/processed/*
+data/splits/*
+
+# Model artifacts
+artifacts/
+*.pth
+*.pt
+*.onnx
+
+# MLflow
+mlruns/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
