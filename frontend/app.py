@@ -112,7 +112,7 @@ if image_bytes is not None:
 
     if st.button("Classify Image", type="primary"):
 
-        with st.spinner("Analyzing image..."):
+        with st.spinner("API backend is being activated. Please wait..."):
 
             try:
 
