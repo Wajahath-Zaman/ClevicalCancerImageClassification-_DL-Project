@@ -1,14 +1,6 @@
-# API framework
+# Production dependencies
+-r requirements.txt
 
-fastapi==0.162.0
-uvicorn==0.54.0
-python-multipart==0.0.33
-
-# Image processing
-
-pillow==13.0.0
-
-# Deep learning
-
-torch==2.15.0
-torchvision==0.29.2
+# Development and testing
+pytest
+httpx

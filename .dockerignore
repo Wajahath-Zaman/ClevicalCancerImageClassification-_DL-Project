@@ -1,0 +1,36 @@
+# Git
+.git/
+.gitignore
+
+# Python virtual environments
+.venv/
+venv/
+env/
+.cervical-cancer-ml/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+notebooks/
+
+# Dataset
+data/
+
+# Tests (not required in production image)
+tests/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
