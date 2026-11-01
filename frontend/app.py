@@ -24,6 +24,11 @@ st.write(
     "application powered by a ResNet50 deep learning model."
 )
 
+st.write(
+    "The Backend API might Take few seconds to Load up."
+    
+)
+
 st.divider()
 
 # Select input method
